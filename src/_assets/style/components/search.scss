@@ -1,0 +1,29 @@
+.search {
+  margin-top: 20px;
+
+  &__container {
+    background: #fff;
+    border-radius: $border-radius;
+    padding: 30px;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  &__form {
+    display: flex;
+
+    button {
+      font-size: 16px;
+    }
+
+    input {
+      font-size: 16px;
+      margin-right: 5px;
+      width: 100%;
+    }
+  }
+}

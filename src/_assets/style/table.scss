@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+
+  tr {
+    background: #fff;
+    border-bottom: 2px $body-bg solid;
+  }
+
+  th {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,17 @@
+.results {
+  table {
+    min-height: 645px;
+
+    th:first-child {
+      width: 50px;
+    }
+
+    th:last-child {
+      width: 140px;
+    }
+
+    td {
+      min-height: 65px;
+    }
+  }
+}
