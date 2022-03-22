@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Search getTerm={setTerm} />
+      <Search onSubmit={setTerm} />
       {term && <Results searchTerm={term}/>}
     </div>
   );
